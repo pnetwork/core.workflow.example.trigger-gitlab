@@ -10,8 +10,6 @@ assets:
 description: ''
 
 inputs:
-  resourceIds:
-    $ref: pn_ids_host
   token:
     description: token
     title: Token for trigger gitlab ci
@@ -24,6 +22,8 @@ inputs:
     descrption: url
     title: URL
     type: string
+  resourceIds:
+    $ref: pn_ids_host
 
 required:
   - ref
